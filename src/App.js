@@ -6,7 +6,11 @@ class App extends Component {
   render() {
     const names = ["Aye", "Bee", "See", 'Dee', "Eee"]
     return (
-      <div></div>
+      <div>
+        Picture: <input/>
+        Name: <input/>
+        <button>Save it</button>
+      </div>
     );
 
 
